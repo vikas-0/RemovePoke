@@ -11,8 +11,8 @@ _gaq.push(['_setAccount', 'UA-xxxxxxxxx-x']);
 _gaq.push(['_trackPageview']);
 
 chrome.runtime.onMessage.addListener(function( request, sender, sendResponse ) {
-    if(request.action == "removeTrump"){
-        _gaq.push(['_trackEvent', 'removeTrump', 'removed']);
+    if(request.action == "removePokemon"){
+        _gaq.push(['_trackEvent', 'removePokemon', 'removed']);
     }
 });
 
